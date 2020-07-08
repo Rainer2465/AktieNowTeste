@@ -23,6 +23,6 @@ var LivrosSchema = new mongoose.Schema({
 
 
 //Export the model
-const Livros = mongoose.model('Livros', LivrosSchema);
+const Livros = mongoose.model('Livro', LivrosSchema);
 
 module.exports = Livros;
